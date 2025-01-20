@@ -1,0 +1,192 @@
+body,
+h2,
+p {
+  margin: 0;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.main-div {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+#logo-top {
+  width: 250px;
+  size: 50px;
+  padding: 33px 0px;
+}
+
+.signup-form {
+  background-color: #fff;
+  width: 430px;
+  border-radius: 10px;
+}
+
+.form-heading {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-heading h2 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+.form-heading p {
+  color: #606770;
+}
+
+.input-fields {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-template {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.box-template::placeholder {
+  font-size: 15px;
+}
+
+.half-box {
+  display: flex;
+  width: 48%;
+}
+
+.DOB {
+  padding: 15px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #606770;
+}
+
+.dob-div,
+.gen-div {
+  padding: 8px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.opt-width {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.quat-width {
+  width: 32%;
+  display: flex;
+}
+
+.GEN {
+  padding: 15px;
+  font-size: 12px;
+  color: #606770;
+}
+
+.gen-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.gender-label {
+  width: 100%;
+  font-size: 14px;
+}
+
+.radio-btn {
+  margin: 0px;
+  width: auto;
+}
+
+.full-box {
+  display: flex;
+  width: 100%;
+}
+
+.input-fields-2 {
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-template-2 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.box-template-21 {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.box-template-2,
+.box-template-21::placeholder {
+  font-size: 15px;
+}
+
+.small-text {
+  padding: 12px 15px;
+  width: 89%;
+  font-size: 10px;
+}
+small {
+  font-size: 10.75px;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-div {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-btn {
+  border: none;
+  background-color: #00a400;
+  color: #fff;
+  padding: 5px 55px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.last-text {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.a-text {
+  color: #1877f2;
+}
